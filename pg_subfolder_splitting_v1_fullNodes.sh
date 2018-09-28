@@ -7,7 +7,7 @@ pool_name="COMMOBJECTS"
 #while [[ "$(ceph health)" != "HEALTH_OK" ]]; do
 #  sleep 10
 #done
-
+# The original script which was modified as per our requirement : https://gist.github.com/drakonstein/cb76c7696e65522ab0e699b7ea1ab1c4
 # Some method to set your ceph.conf file to the subfolder splitting settings you want.
 # If you are not changing the ceph.conf settings, then you can start the osd at the end of the loop instead of at the end.
 conf=/etc/ceph/ceph.conf
